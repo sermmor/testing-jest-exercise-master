@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pages/members/list/pageContainer tests should be a valid pageContainer rendered 1`] = `
+<PageContainer
+  fetchMembers={[Function]}
+  members={
+    Array [
+      Object {
+        "avatarUrl": "http://testavatar.png",
+        "id": 1,
+        "name": "test field login",
+      },
+      Object {
+        "avatarUrl": "http://testavatar(1).png",
+        "id": 2,
+        "name": "test field login (1)",
+      },
+    ]
+  }
+/>
+`;

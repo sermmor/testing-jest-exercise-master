@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pages/members/list/components/table test should be a valid table rendered 1`] = `
+<table
+  className="table table-striped"
+>
+  <Component />
+  <Component
+    members={
+      Array [
+        Object {
+          "avatarUrl": "http://testavatar.png",
+          "id": 1,
+          "name": "test field login",
+        },
+        Object {
+          "avatarUrl": "http://testavatar(1).png",
+          "id": 2,
+          "name": "test field login (1)",
+        },
+        Object {
+          "avatarUrl": "http://testavatar(2).png",
+          "id": 3,
+          "name": "test field login (2)",
+        },
+      ]
+    }
+  />
+</table>
+`;

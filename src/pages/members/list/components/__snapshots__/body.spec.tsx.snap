@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pages/members/list/components/body test should be a valid body rendered 1`] = `
+<tbody>
+  <Component
+    key="1"
+    member={
+      Object {
+        "avatarUrl": "http://testavatar.png",
+        "id": 1,
+        "name": "test field login",
+      }
+    }
+  />
+  <Component
+    key="2"
+    member={
+      Object {
+        "avatarUrl": "http://testavatar(1).png",
+        "id": 2,
+        "name": "test field login (1)",
+      }
+    }
+  />
+  <Component
+    key="3"
+    member={
+      Object {
+        "avatarUrl": "http://testavatar(2).png",
+        "id": 3,
+        "name": "test field login (2)",
+      }
+    }
+  />
+</tbody>
+`;
